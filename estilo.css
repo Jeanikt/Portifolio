@@ -1,0 +1,230 @@
+body{
+	background: #010d1f;
+}
+
+#principal{
+	: 5px solid red;
+  	font-family: "Helvetica", "Verdana", "Arial", sans-serif;
+  	font-weight: 300;
+  	line-height: 1.167;
+  	letter-spacing: -0.01562rem;
+  	margin-top: 15rem;
+  	margin-left: 11.5rem;
+  	margin-right: 40rem;
+ 
+}
+.principal{
+	:  5px solid red;
+	font-size: 4.7rem;
+  	color: white;
+  	animation: mysegundan 3s ease 0s 1 normal forwards;
+}
+@keyframes mysegundan {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+
+
+.name{
+	:  5px solid red;
+	font-size: 2.9rem;
+ 	 color: white;
+ 	 animation: myAnim 3s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: scale(0);
+		transform-origin: 50% 100%;
+	}
+
+	100% {
+		transform: scale(1);
+		transform-origin: 50% 100%;
+	}
+}
+
+
+.bio{
+	:  5px solid red;
+	font-size: 1.4rem;
+ 	 color: #CCD6F6;
+ 	 letter-spacing: 0.350rem;
+ 	 animation: myAnim 3s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: scale(0);
+		transform-origin: 50% 100%;
+	}
+
+	100% {
+		transform: scale(1);
+		transform-origin: 50% 100%;
+	}
+}
+
+
+.jean{
+	color: #64FFDA;
+
+}
+
+.intro-contact {
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: "NTR",sans-serif;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 1px solid var(green);
+    border-radius: 4px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.MuiSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+}
+
+svg {
+    overflow: hidden;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+svg:not(:root) {
+    overflow: hidden;
+}
+
+a:hover {
+    color: var(#64FFDA)!important;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+a:focus, a:hover {
+    color: #0a5dc2;
+    text-decoration: underline;
+}
+.intro-contact {
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: "NTR",sans-serif;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 1px solid var(--green-bright);
+    border-radius: 4px;
+}
+a {
+    text-decoration: none!important;
+    color: var(white)!important;
+}
+a {
+    color: #64FFDA;
+    text-decoration: none;
+    background-color: transparent;
+}
+a {
+    color: #64FFDA;
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+}
+
+.section-header:after {
+    content: "";
+    display: block;
+    width: 300px;
+    margin-top: 39px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: var(--lightest-navy);
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+.section-title{
+	font-size: 2.8rem;
+}
+
+.sobre-text{
+	font-size: 1.4rem;
+	color: #CCD6F6;
+}
+
+.about-image img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 6px 13px 23px -5px rgb(0 0 0 / 46%);
+    border: none;
+ }
+
+.anhanguera{
+	color: #64FFDA;
+}
+.fade-in-section.is-visible {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    visibility: visible;
+}
+.about-description li:before {
+    content: "▹";
+    color: var(--green-bright);
+    position: absolute;
+    left: 0;
+}
+.navbar{
+	color: #64FFDA;
+	font-size: 1rem;
+	height: 10px;
+	width: 2px;
+	position: fixed;
+	z-index: 100rem;
+	top: 10rem;
+	right: 10rem;
+	background-color: transparent;
+	padding-top: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0rem;
+  padding: 0px;
+}
+.Built{
+	font-size: 0.5rem;
+	font-family: verdana, Helvetica, sans-serif;
+	color: #4B5771;
+	text-align: center;
+}
